@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px; }
+
+label,
+input,
+button {
+  font-family: "Ubuntu", sans-serif; }
+
+label {
+  font-size: 16px; }
+
+input {
+  font-size: 14px;
+  font-weight: 300; }
+
+button {
+  font-size: 18px;
+  font-weight: 600; }
+
+body {
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
+  body .container {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 16px #3b779e29;
+    width: 400px; }
+    body .container form {
+      padding: 30px 40px; }
+      body .container form h2 {
+        color: #323232;
+        margin-bottom: 20px; }
+      body .container form .form-group {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative; }
+        body .container form .form-group input,
+        body .container form .form-group label {
+          margin-bottom: 5px; }
+        body .container form .form-group label {
+          color: #777; }
+        body .container form .form-group input {
+          border: 1px solid #dbdada;
+          border-radius: 2px;
+          padding: 10px;
+          outline: none;
+          width: 100%; }
+          body .container form .form-group input:focus {
+            border-color: #a3a2a2; }
+        body .container form .form-group small {
+          color: #e74c3c;
+          visibility: hidden; }
+      body .container form .form-group.success input {
+        border-color: #2ecc71; }
+      body .container form .form-group.error input {
+        border-color: #e74c3c; }
+      body .container form .form-group.error small {
+        visibility: visible; }
+      body .container form button {
+        margin-top: 10px;
+        padding: 10px 30px;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        background: #1abc9c;
+        cursor: pointer; }
+        body .container form button:focus {
+          outline: none; }
