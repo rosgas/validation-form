@@ -1,5 +1,5 @@
 # Validation Form
-A client-side form validator built using HTML5, CSS &amp; JavaScript with no frameworks or libraries.
+A client-side form validator built using HTML5, SCSS &amp; JavaScript with no frameworks or libraries.
 
 <a href="https://rosgas.github.io/validation-form/">DEMO</a>
 
